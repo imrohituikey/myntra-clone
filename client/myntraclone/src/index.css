@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li{
+    list-style: none;
+}
+h4{
+    font-size: 12px;
+    color: #000;
+    font-weight: 600;
+}
+input{
+    background-color: transparent;
+}
+input:active{
+    border: none;
+}
+html{
+    transition: ease-in-out;
+}
